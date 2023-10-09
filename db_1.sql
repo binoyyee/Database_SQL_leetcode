@@ -1,3 +1,3 @@
 /* Combine two tables (175) */
-select p.FirstName, p.LastName, a.City, a.State from person p 
-left join address a on p.personid = a.personid
+SELECT P.firstName, P.lastName, A.city, A.state FROM Person P 
+LEFT JOIN ADDRESS A ON P.personid = A.personid
